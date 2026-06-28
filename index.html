@@ -1,126 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sumit Goswami Portfolio</title>
+
+<title>Sumit Goswami | Python Full Stack Developer</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
 }
 
 body{
-    font-family:'Segoe UI',sans-serif;
-    background:#f4f6f9;
+font-family:'Segoe UI',sans-serif;
+background:#f4f6f9;
 }
 
 .navbar{
-    background:#111827;
+background:#111827;
+}
+
+.navbar-brand{
+font-weight:bold;
+font-size:24px;
 }
 
 .hero{
-    background:linear-gradient(135deg,#2563eb,#1d4ed8);
-    color:white;
-    text-align:center;
-    padding:80px 20px;
+
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+
+color:white;
+
+text-align:center;
+
+padding:90px 20px;
+
 }
 
+
 .profile-img{
-    width:220px;
-    height:220px;
-    object-fit:cover;
-    border-radius:50%;
-    border:6px solid white;
-    box-shadow:0 10px 25px rgba(0,0,0,.3);
-    margin-bottom:20px;
+
+width:220px;
+
+height:220px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:6px solid white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+margin-bottom:25px;
+
 }
 
 .hero h1{
-    font-size:3rem;
-    font-weight:bold;
+
+font-size:3rem;
+
+font-weight:bold;
+
 }
 
 .hero h3{
-    margin-top:10px;
+
+margin-top:15px;
+
+font-weight:400;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+margin-top:15px;
+
 }
 
 .section-card{
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 4px 15px rgba(0,0,0,.1);
-    margin-top:40px;
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+margin-top:45px;
+
 }
 
 .project-card{
-    transition:0.3s;
+
+transition:.3s;
+
+border:none;
+
 }
 
 .project-card:hover{
-    transform:translateY(-8px);
+
+transform:translateY(-8px);
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
 }
 
 footer{
-    background:#111827;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:50px;
+
+background:#111827;
+
+color:white;
+
+text-align:center;
+
+padding:20px;
+
+margin-top:50px;
+
 }
 
 </style>
 
 </head>
+
 <body>
 
 <!-- Navbar -->
 
 <nav class="navbar navbar-dark">
+
 <div class="container">
-<a class="navbar-brand fw-bold" href="#">
+
+<a class="navbar-brand" href="#">
+
 💻 Sumit Goswami
+
 </a>
+
 </div>
+
 </nav>
 
 <!-- Hero -->
 
 <section class="hero">
 
-<img src="images/profile.JPG"
-     alt="Sumit Goswami"
-     class="profile-img">
+<img
+src="images/profile.JPG"
+class="profile-img"
+alt="Profile">
 
-<h1>Hi, I'm Sumit Goswami</h1>
+<h1>
 
-<h3>Python Flask Developer</h3>
+Hi, I'm Sumit Goswami
 
-<p class="mt-3">
-Building Web Applications using Python, Flask, SQLite and Bootstrap.
+</h1>
+
+<h3>
+
+Python Full Stack Developer
+
+</h3>
+
+<p>
+
+Building Production Ready Flask Applications,
+AI Powered Tools,
+REST APIs,
+Responsive Dashboards
+and Modern Web Solutions.
+
 </p>
 
 <div class="mt-4">
 
-<a href="#projects" class="btn btn-light btn-lg m-2">
+<a
+href="#projects"
+class="btn btn-light btn-lg m-2">
+
 🚀 View Projects
+
 </a>
 
-<a href="https://github.com/sumithackerchd"
+<a
+href="https://github.com/sumithackerchd"
 target="_blank"
 class="btn btn-dark btn-lg m-2">
-💻 GitHub
+
+<i class="fab fa-github"></i>
+
+GitHub
+
 </a>
 
-<a href="Resume.pdf"
+<a
+href="Resume.pdf"
 download
 class="btn btn-success btn-lg m-2">
+
 📄 Resume
+
 </a>
 
 </div>
@@ -133,57 +229,93 @@ class="btn btn-success btn-lg m-2">
 
 <div class="section-card">
 
-<h2>🙋 About Me</h2>
+<h2>
 
-<p class="mt-3">
-I am a Python Flask Developer with experience in building
-full-stack web applications using Flask, SQLite,
-Bootstrap, HTML and CSS.
+🙋 About Me
 
-I have developed projects such as ExamMaster Mock Test Platform,
-Online Exam System, Mini E-Commerce Store,
-Student Management System, Employee Management System,
-Library Management System, Expense Tracker,
-Login & Registration System and Weather App.
+</h2>
 
-I enjoy creating practical web applications and continuously
-learning new technologies.
+<p class="mt-4">
+
+I am a Python Full Stack Developer specializing in Flask,
+SQLAlchemy, Bootstrap and REST APIs.
+
+I enjoy building scalable web applications and solving
+real-world business problems through software.
+
+My portfolio includes professional projects such as
+InvoicePro GST Billing System,
+Hotel Booking Platform,
+AI Resume Analyzer,
+ExamMaster Mock Test Platform,
+Weather Application,
+Student Management System and several CRUD based web applications.
+
+I continuously improve my skills in Python,
+Backend Development,
+AI Integration,
+Database Design and Modern Web Technologies.
+
 </p>
 
 </div>
 
 </div>
 
-
-
 <!-- Projects -->
+ <div class="row g-4">
 
-<div class="container" id="projects">
+    <!-- InvoicePro -->
 
-    <h2 class="text-center mt-5 mb-5">
-        🚀 My Projects
-    </h2>
+    <div class="col-md-6 col-lg-4">
 
-    <div class="row g-4">
+        <div class="card shadow project-card h-100 border-primary">
 
-        <!-- Student Management System -->
+            <div class="card-body d-flex flex-column">
 
-        <div class="col-md-6 col-lg-4">
+                <h4>🧾 InvoicePro – GST Billing System</h4>
 
-            <div class="card shadow project-card h-100">
+                <p class="flex-grow-1">
 
-                <div class="card-body d-flex flex-column">
+                    Professional multi-user GST Billing &
+                    Invoice Management System built with Flask.
 
-                    <h4>🎓 Student Management System</h4>
+                    Features secure authentication,
+                    customer management,
+                    product management,
+                    multi-product invoices,
+                    PDF export,
+                    responsive dashboard
+                    and company settings.
 
-                    <p>
-                        Flask + SQLite CRUD application for student records management.
-                    </p>
+                </p>
 
-                    <a href="https://github.com/sumithackerchd/Student-Management-System"
-                       target="_blank"
-                       class="btn btn-primary mt-auto">
-                        View Project
+                <p>
+
+                    <strong>Technology</strong><br>
+
+                    Python • Flask • SQLAlchemy • SQLite • Bootstrap • JavaScript • ReportLab
+
+                </p>
+
+                <div class="mt-auto">
+
+                    <a
+                    href="https://invoicepro-flask.onrender.com"
+                    target="_blank"
+                    class="btn btn-success w-100 mb-2">
+
+                        🚀 Live Demo
+
+                    </a>
+
+                    <a
+                    href="https://github.com/sumithackerchd/invoicepro-flask"
+                    target="_blank"
+                    class="btn btn-dark w-100">
+
+                        💻 Source Code
+
                     </a>
 
                 </div>
@@ -192,24 +324,57 @@ learning new technologies.
 
         </div>
 
-        <!-- Expense Tracker -->
+    </div>
 
-        <div class="col-md-6 col-lg-4">
 
-            <div class="card shadow project-card h-100">
 
-                <div class="card-body d-flex flex-column">
+    <!-- Hotel Booking -->
 
-                    <h4>💰 Expense Tracker</h4>
+    <div class="col-md-6 col-lg-4">
 
-                    <p>
-                        Track and manage daily expenses using Flask and SQLite.
-                    </p>
+        <div class="card shadow project-card h-100 border-success">
 
-                    <a href="https://github.com/sumithackerchd/Expense-Tracker-Web-App"
-                       target="_blank"
-                       class="btn btn-success mt-auto">
-                        View Project
+            <div class="card-body d-flex flex-column">
+
+                <h4>🏨 Hotel Booking System</h4>
+
+                <p class="flex-grow-1">
+
+                    Full-featured hotel booking platform with
+                    authentication,
+                    room booking,
+                    booking history,
+                    admin dashboard
+                    and responsive interface.
+
+                </p>
+
+                <p>
+
+                    <strong>Technology</strong><br>
+
+                    Python • Flask • SQLite • Bootstrap
+
+                </p>
+
+                <div class="mt-auto">
+
+                    <a
+                    href="https://hotel-booking-system-hui7.onrender.com"
+                    target="_blank"
+                    class="btn btn-success w-100 mb-2">
+
+                        🚀 Live Demo
+
+                    </a>
+
+                    <a
+                    href="https://github.com/sumithackerchd/Hotel-Booking-System"
+                    target="_blank"
+                    class="btn btn-dark w-100">
+
+                        💻 Source Code
+
                     </a>
 
                 </div>
@@ -218,24 +383,95 @@ learning new technologies.
 
         </div>
 
-        <!-- Employee Management System -->
+    </div>
 
-        <div class="col-md-6 col-lg-4">
 
-            <div class="card shadow project-card h-100">
 
-                <div class="card-body d-flex flex-column">
+    <!-- AI Resume Analyzer -->
 
-                    <h4>👨‍💼 Employee Management System</h4>
+    <div class="col-md-6 col-lg-4">
 
-                    <p>
-                        Employee CRUD application using Flask, SQLite and Bootstrap.
-                    </p>
+        <div class="card shadow project-card h-100 border-warning">
 
-                    <a href="https://github.com/sumithackerchd/Employee-Management-System"
-                       target="_blank"
-                       class="btn btn-dark mt-auto">
-                        View Project
+            <div class="card-body d-flex flex-column">
+
+                <h4>🤖 AI Resume Analyzer Pro</h4>
+
+                <p class="flex-grow-1">
+
+                    AI-powered Resume Analyzer with ATS Score,
+                    Skill Detection,
+                    Missing Skills Analysis,
+                    PDF Reports
+                    and Analytics Dashboard.
+
+                </p>
+
+                <p>
+
+                    <strong>Technology</strong><br>
+
+                    Python • Flask • SQLite • PyMuPDF • ReportLab
+
+                </p>
+
+                <a
+                href="https://github.com/sumithackerchd/AI-Resume-Analyzer-Pro"
+                target="_blank"
+                class="btn btn-dark mt-auto">
+
+                    💻 Source Code
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ExamMaster -->
+
+    <div class="col-md-6 col-lg-4">
+
+        <div class="card shadow project-card h-100">
+
+            <div class="card-body d-flex flex-column">
+
+                <h4>🎯 ExamMaster Platform</h4>
+
+                <p class="flex-grow-1">
+
+                    Complete Online Mock Test Platform with
+                    Admin Panel,
+                    Student Login,
+                    Leaderboard,
+                    Timer,
+                    Results
+                    and Dashboard.
+
+                </p>
+
+                <div class="mt-auto">
+
+                    <a
+                    href="https://mock-test-portal.onrender.com"
+                    target="_blank"
+                    class="btn btn-success w-100 mb-2">
+
+                        🚀 Live Demo
+
+                    </a>
+
+                    <a
+                    href="https://github.com/sumithackerchd/Mock-Test-Portal"
+                    target="_blank"
+                    class="btn btn-dark w-100">
+
+                        💻 Source Code
+
                     </a>
 
                 </div>
@@ -244,24 +480,46 @@ learning new technologies.
 
         </div>
 
-        <!-- Library Management System -->
+    </div>
 
-        <div class="col-md-6 col-lg-4">
 
-            <div class="card shadow project-card h-100">
 
-                <div class="card-body d-flex flex-column">
+    <!-- Weather -->
 
-                    <h4>📚 Library Management System</h4>
+    <div class="col-md-6 col-lg-4">
 
-                    <p>
-                        Library management application using Flask, SQLite and Bootstrap for managing books, issue records and library operations.
-                    </p>
+        <div class="card shadow project-card h-100">
 
-                    <a href="https://github.com/sumithackerchd/Library-Management-System"
-                       target="_blank"
-                       class="btn btn-warning mt-auto">
-                        View Project
+            <div class="card-body d-flex flex-column">
+
+                <h4>🌦 Weather App</h4>
+
+                <p class="flex-grow-1">
+
+                    Real-time weather forecasting application using
+                    Flask and OpenWeather API
+                    with modern responsive UI.
+
+                </p>
+
+                <div class="mt-auto">
+
+                    <a
+                    href="https://weather-app-c840.onrender.com"
+                    target="_blank"
+                    class="btn btn-success w-100 mb-2">
+
+                        🚀 Live Demo
+
+                    </a>
+
+                    <a
+                    href="https://github.com/sumithackerchd/Weather-App"
+                    target="_blank"
+                    class="btn btn-dark w-100">
+
+                        💻 Source Code
+
                     </a>
 
                 </div>
@@ -270,83 +528,63 @@ learning new technologies.
 
         </div>
 
-        <!-- Weather App -->
+    </div>
+    <!-- Student Management -->
+
 <div class="col-md-6 col-lg-4">
+
     <div class="card shadow project-card h-100">
 
         <div class="card-body d-flex flex-column">
 
-            <h4>🌦️ Weather App</h4>
+            <h4>🎓 Student Management System</h4>
 
             <p class="flex-grow-1">
-                A modern weather application built with <strong>Flask</strong>,
-                <strong>OpenWeather API</strong>, HTML, CSS and Bootstrap.
-                It provides real-time weather information including temperature,
-                humidity, wind speed and pressure with a clean responsive UI.
+
+                Complete CRUD based Student Management System
+                with secure database integration and responsive UI.
+
             </p>
 
-            <div class="mt-auto d-flex gap-2">
+            <a
+            href="https://github.com/sumithackerchd/Student-Management-System"
+            target="_blank"
+            class="btn btn-dark mt-auto">
 
-                <a href="https://weather-app-c840.onrender.com"
-                   target="_blank"
-                   class="btn btn-success flex-fill">
-                    <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
+                💻 Source Code
 
-                <a href="https://github.com/sumithackerchd/Weather-App"
-                   target="_blank"
-                   class="btn btn-dark flex-fill">
-                    <i class="fab fa-github"></i> Source Code
-                </a>
-
-            </div>
+            </a>
 
         </div>
 
     </div>
+
 </div>
-        
-        <!-- Hotel Booking Management System -->
+
+<!-- Expense Tracker -->
 
 <div class="col-md-6 col-lg-4">
 
-    <div class="card shadow project-card h-100 border-success">
+    <div class="card shadow project-card h-100">
 
         <div class="card-body d-flex flex-column">
 
-            <h4>🏨 Hotel Booking Management System</h4>
+            <h4>💰 Expense Tracker</h4>
 
-            <p>
-                Full-featured hotel booking platform with user authentication,
-                room management, booking system, payment integration,
-                booking history and admin dashboard.
+            <p class="flex-grow-1">
+
+                Personal Expense Tracking Application
+                with income, expense and balance management.
+
             </p>
 
-            <p>
-                <strong>Features:</strong>
-                Hotel Search, Room Booking,
-                User Authentication,
-                Booking History,
-                Admin Panel,
-                Payment Gateway Integration
-            </p>
-
-            <p>
-                <strong>Technology:</strong>
-                Python, Flask, SQLite,
-                Bootstrap, SQLAlchemy
-            </p>
-
-            <a href="https://hotel-booking-system-hui7.onrender.com"
+            <a
+            href="https://github.com/sumithackerchd/Expense-Tracker-Web-App"
             target="_blank"
-            class="btn btn-success mb-2">
-            Live Demo
-            </a>
+            class="btn btn-dark mt-auto">
 
-            <a href="https://github.com/sumithackerchd/Hotel-Booking-System"
-               target="_blank"
-               class="btn btn-dark">
-                Source Code
+                💻 Source Code
+
             </a>
 
         </div>
@@ -354,7 +592,74 @@ learning new technologies.
     </div>
 
 </div>
-    <!-- Mini E-Commerce Store -->
+
+<!-- Employee Management -->
+
+<div class="col-md-6 col-lg-4">
+
+    <div class="card shadow project-card h-100">
+
+        <div class="card-body d-flex flex-column">
+
+            <h4>👨‍💼 Employee Management</h4>
+
+            <p class="flex-grow-1">
+
+                Employee CRUD application with
+                authentication and database management.
+
+            </p>
+
+            <a
+            href="https://github.com/sumithackerchd/Employee-Management-System"
+            target="_blank"
+            class="btn btn-dark mt-auto">
+
+                💻 Source Code
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Library -->
+
+<div class="col-md-6 col-lg-4">
+
+    <div class="card shadow project-card h-100">
+
+        <div class="card-body d-flex flex-column">
+
+            <h4>📚 Library Management</h4>
+
+            <p class="flex-grow-1">
+
+                Library Management System for
+                managing books,
+                issue records
+                and library operations.
+
+            </p>
+
+            <a
+            href="https://github.com/sumithackerchd/Library-Management-System"
+            target="_blank"
+            class="btn btn-dark mt-auto">
+
+                💻 Source Code
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Mini Ecommerce -->
 
 <div class="col-md-6 col-lg-4">
 
@@ -364,14 +669,22 @@ learning new technologies.
 
             <h4>🛒 Mini E-Commerce Store</h4>
 
-            <p>
-                E-Commerce application using Flask, SQLite and Bootstrap with product listing, product details and product management features.
+            <p class="flex-grow-1">
+
+                Online Store developed using Flask
+                with product listing,
+                product details
+                and shopping features.
+
             </p>
 
-            <a href="https://github.com/sumithackerchd/Mini-E-Commerce-Store"
-               target="_blank"
-               class="btn btn-secondary mt-auto">
-                View Project
+            <a
+            href="https://github.com/sumithackerchd/Mini-E-Commerce-Store"
+            target="_blank"
+            class="btn btn-dark mt-auto">
+
+                💻 Source Code
+
             </a>
 
         </div>
@@ -380,7 +693,7 @@ learning new technologies.
 
 </div>
 
-<!-- Online Exam System -->
+<!-- Online Exam -->
 
 <div class="col-md-6 col-lg-4">
 
@@ -390,19 +703,22 @@ learning new technologies.
 
             <h4>📝 Online Exam System</h4>
 
-            <p>
-                Online examination platform with Admin Login, Question Management, Timer and Automatic Result Generation using Flask and SQLite.
+            <p class="flex-grow-1">
+
+                Online Examination Platform with
+                Admin Panel,
+                Question Management,
+                Timer and Automatic Results.
+
             </p>
 
-            <p>
-                <strong>Technology:</strong>
-                Python, Flask, SQLite, Bootstrap
-            </p>
+            <a
+            href="https://github.com/sumithackerchd/Online-Exam-System"
+            target="_blank"
+            class="btn btn-dark mt-auto">
 
-            <a href="https://github.com/sumithackerchd/Online-Exam-System"
-               target="_blank"
-               class="btn btn-primary mt-auto">
-                View Project
+                💻 Source Code
+
             </a>
 
         </div>
@@ -411,7 +727,7 @@ learning new technologies.
 
 </div>
 
-<!-- ExamMaster -->
+<!-- Login System -->
 
 <div class="col-md-6 col-lg-4">
 
@@ -419,68 +735,23 @@ learning new technologies.
 
         <div class="card-body d-flex flex-column">
 
-            <h4>🎯 ExamMaster Platform</h4>
+            <h4>🔐 Login & Registration</h4>
 
-            <p>
-                Full-featured Online Mock Test Platform with Student Login,
-                Admin Dashboard, Categories, Mock Tests, Leaderboard,
-                Results Tracking, Timer and Question Management.
+            <p class="flex-grow-1">
+
+                Secure Login &
+                Registration System using
+                Flask Authentication,
+                Sessions and Password Hashing.
+
             </p>
 
-            <p>
-                <strong>Technology:</strong>
-                Python, Flask, SQLite, Bootstrap
-            </p>
-
-            <a href="https://mock-test-portal.onrender.com"
+            <a
+            href="https://github.com/sumithackerchd/Login-Registration-System"
             target="_blank"
-            class="btn btn-success mb-2">
-            Live Demo
-            </a>
+            class="btn btn-dark mt-auto">
 
-            <a href="https://github.com/sumithackerchd/Mock-Test-Portal"
-               target="_blank"
-               class="btn btn-dark">
-                Source Code
-            </a>
-
-        </div>
-
-    </div>
-
-</div>
-
-<!-- AI Resume Analyzer Pro -->
-
-<div class="col-md-6 col-lg-4">
-
-    <div class="card shadow project-card h-100 border-primary">
-
-        <div class="card-body d-flex flex-column">
-
-            <h4>🤖 AI Resume Analyzer Pro</h4>
-
-            <p>
-                AI-powered Resume Analyzer built using Flask, SQLite, Bootstrap and PDF Processing.
-            </p>
-
-            <p>
-                ATS Score Calculation, Skill Detection,
-                Missing Skill Analysis, Analytics Dashboard
-                and PDF Report Generation.
-            </p>
-
-            <p>
-                <strong>Technology:</strong>
-                Python, Flask, SQLite, Bootstrap,
-                PyMuPDF, ReportLab
-            </p>
-
-            <a href="https://github.com/sumithackerchd/AI-Resume-Analyzer-Pro"
-               target="_blank"
-               class="btn btn-primary mt-auto">
-
-                View Project
+                💻 Source Code
 
             </a>
 
@@ -490,28 +761,168 @@ learning new technologies.
 
 </div>
 
+</div>
 
-        <!-- Login System -->
+</div>
+<!-- Skills -->
 
-        <div class="col-md-6 col-lg-4">
+<div class="container">
 
-            <div class="card shadow project-card h-100">
+    <div class="section-card">
 
-                <div class="card-body d-flex flex-column">
+        <h2 class="text-center">
+            🛠 Technical Skills
+        </h2>
 
-                    <h4>🔐 Login & Registration System</h4>
+        <div class="mt-4">
 
-                    <p>
-                        Secure authentication system using Flask, SQLite, Sessions and Password Hashing.
-                    </p>
+            <label><strong>Python</strong></label>
 
-                    <a href="https://github.com/sumithackerchd/Login-Registration-System"
-                       target="_blank"
-                       class="btn btn-danger mt-auto">
-                        View Project
+            <div class="progress mb-3">
+                <div class="progress-bar bg-primary" style="width:90%">
+                    90%
+                </div>
+            </div>
+
+            <label><strong>Flask</strong></label>
+
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width:90%">
+                    90%
+                </div>
+            </div>
+
+            <label><strong>SQLAlchemy</strong></label>
+
+            <div class="progress mb-3">
+                <div class="progress-bar bg-info" style="width:85%">
+                    85%
+                </div>
+            </div>
+
+            <label><strong>SQLite / MySQL</strong></label>
+
+            <div class="progress mb-3">
+                <div class="progress-bar bg-dark" style="width:85%">
+                    85%
+                </div>
+            </div>
+
+            <label><strong>Bootstrap</strong></label>
+
+            <div class="progress mb-3">
+                <div class="progress-bar bg-warning text-dark" style="width:85%">
+                    85%
+                </div>
+            </div>
+
+            <label><strong>HTML / CSS</strong></label>
+
+            <div class="progress mb-3">
+                <div class="progress-bar bg-secondary" style="width:90%">
+                    90%
+                </div>
+            </div>
+
+            <label><strong>JavaScript</strong></label>
+
+            <div class="progress mb-3">
+                <div class="progress-bar bg-danger" style="width:75%">
+                    75%
+                </div>
+            </div>
+
+            <label><strong>REST APIs</strong></label>
+
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width:80%">
+                    80%
+                </div>
+            </div>
+
+            <label><strong>Git & GitHub</strong></label>
+
+            <div class="progress mb-3">
+                <div class="progress-bar bg-dark" style="width:85%">
+                    85%
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Contact -->
+
+<div class="container">
+
+    <div class="section-card">
+
+        <h2 class="text-center">
+            📞 Contact Me
+        </h2>
+
+        <div class="row mt-4">
+
+            <div class="col-md-6">
+
+                <h5>
+                    👤 Sumit Goswami
+                </h5>
+
+                <p>
+
+                    <strong>Email :</strong><br>
+
+                    sumitgiri.chandausi@gmail.com
+
+                </p>
+
+                <p>
+
+                    <strong>Location :</strong><br>
+
+                    Uttar Pradesh, India
+
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <p>
+
+                    <strong>GitHub</strong>
+
+                    <br>
+
+                    <a
+                    href="https://github.com/sumithackerchd"
+                    target="_blank">
+
+                    github.com/sumithackerchd
+
                     </a>
 
-                </div>
+                </p>
+
+                <p>
+
+                    <strong>LinkedIn</strong>
+
+                    <br>
+
+                    <a
+                    href="https://linkedin.com/in/sumitgoswamihacker"
+                    target="_blank">
+
+                    linkedin.com/in/sumitgoswamihacker
+
+                    </a>
+
+                </p>
 
             </div>
 
@@ -521,130 +932,44 @@ learning new technologies.
 
 </div>
 
-<!-- Skills -->
-
-<div class="container">
-
-<div class="section-card">
-
-<h2>🛠 Skills</h2>
-
-<div class="mt-4">
-
-<label>Python</label>
-<div class="progress mb-3">
-<div class="progress-bar" style="width:90%">
-90%
-</div>
-</div>
-
-<label>Flask</label>
-<div class="progress mb-3">
-<div class="progress-bar bg-success" style="width:85%">
-85%
-</div>
-</div>
-
-<label>SQLite</label>
-<div class="progress mb-3">
-<div class="progress-bar bg-dark" style="width:80%">
-80%
-</div>
-</div>
-
-
-<label>Flask Authentication</label>
-<div class="progress mb-3">
-<div class="progress-bar bg-primary" style="width:85%">
-85%
-</div>
-</div>
-
-<label>Bootstrap</label>
-<div class="progress mb-3">
-<div class="progress-bar bg-warning text-dark" style="width:75%">
-75%
-</div>
-</div>
-
-<label>HTML</label>
-<div class="progress mb-3">
-<div class="progress-bar bg-info text-dark" style="width:85%">
-85%
-</div>
-</div>
-
-<label>CSS</label>
-<div class="progress mb-3">
-<div class="progress-bar bg-secondary" style="width:80%">
-80%
-</div>
-</div>
-
-<label>Git & GitHub</label>
-<div class="progress mb-3">
-<div class="progress-bar bg-danger" style="width:75%">
-75%
-</div>
-</div>
-
-<label>REST API Integration</label>
-<div class="progress mb-3">
-<div class="progress-bar bg-info" style="width:70%">
-70%
-</div>
-</div>
-
-</div>
-
-</div>
-
-
-
-
-<!-- Contact -->
-
-<div class="container">
-
-<div class="section-card">
-
-<h2>📞 Contact</h2>
-
-<p>
-<strong>Name:</strong> Sumit Goswami
-</p>
-
-<p>
-<strong>Email:</strong>
-sumitgiri.chandausi@gmail.com
-</p>
-
-<p>
-<strong>LinkedIn:</strong>
-<a href="https://linkedin.com/in/sumitgoswamihacker/">
-LinkedIn Profile
-</a>
-</p>
-
-<p>
-<strong>GitHub:</strong>
-<a href="https://github.com/sumithackerchd" target="_blank">
-github.com/sumithackerchd
-</a>
-
-</p>
-
-</div>
-
-</div>
-
 <!-- Footer -->
 
 <footer>
 
-© 2026 Sumit Goswami | All Rights Reserved
+    <div class="container">
+
+        <h5>
+
+            💻 Sumit Goswami
+
+        </h5>
+
+        <p>
+
+            Python Full Stack Developer
+
+        </p>
+
+        <p>
+
+            Flask • SQLAlchemy • REST APIs • Bootstrap • AI Projects
+
+        </p>
+
+        <hr style="background:white;">
+
+        <small>
+
+            © 2026 Sumit Goswami|All Rights Reserved.
+
+        </small>
+
+    </div>
 
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
